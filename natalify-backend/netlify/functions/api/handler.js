@@ -1,8 +1,4 @@
 import serverless from 'serverless-http';
-import dotenv from 'dotenv';
-
-// Load environment variables
-dotenv.config({ path: '.env' });
 
 // Import your existing server configuration
 import { app } from '../../server.js';
