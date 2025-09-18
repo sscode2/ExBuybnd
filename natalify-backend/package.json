@@ -9,6 +9,7 @@
     "dev": "nodemon server-clean.js",
     "dev-full": "nodemon server.js",
     "seed": "node scripts/seedData.js",
+    "build": "echo 'No build step required for Netlify Functions'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -36,4 +37,4 @@
   "devDependencies": {
     "nodemon": "^3.1.10"
   }
-}
+} 

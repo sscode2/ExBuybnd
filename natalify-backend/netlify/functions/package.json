@@ -1,0 +1,10 @@
+{
+  "name": "natalify-netlify-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for Natalify Backend",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "serverless-http": "^3.2.0"
+  }
+}
